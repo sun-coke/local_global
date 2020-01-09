@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- SMC_ctrl-->
+  <node pkg="localplannerpy" name="ISMC_controller" type="ISMC_controller.py" />
+  <!-- oplanner-->
+  <node pkg="localplannerpy" name="mission_control" type="mission_control_v1_3.py" />
+
+</launch>
